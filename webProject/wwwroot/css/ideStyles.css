@@ -1,0 +1,43 @@
+﻿/* General reset for margin */
+#editor * {
+    margin: 0;
+}
+
+/* Styles specific to the #editor container */
+.editor {
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Style the button container */
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the output section */
+.output {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 200px;
+    overflow-y: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin-top: 20px;
+}
+
+    /* Enhance visibility for error messages */
+    .output p {
+        color: red;
+        font-weight: bold;
+    }
+
+    /* Ensure the image fits well within the output container */
+    .output img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }

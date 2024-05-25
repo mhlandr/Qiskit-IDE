@@ -1,0 +1,59 @@
+﻿@page
+@model webProject.Pages.compileModel
+@{
+    ViewData["Title"] = "Online Compiler";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="~/css/compileStyles.css">
+    <link rel="stylesheet" href="~/css/ideStyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/js/compiler/lib/ace.js"></script>
+    <script src="~/js/compiler/lib/theme-monokai.js"></script>
+    <script src="~/js/compiler/ide.js"></script>
+    <script src="~/js/compilerScripts.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-md-9 left-section">
+                <div class="editor" id="editor">
+                    <!-- Editor content goes here -->
+                </div>
+
+                <div class="button-container">
+                    <button class="btn" onclick="executePythonCode()">Run</button>
+                </div>
+
+                <div class="output" id="output"></div>
+            </div>
+
+
+            <div class="col-md-3 right-section">
+                <div class="chat-container">
+                    <div class="chat-box" id="chat-box">
+                        <!-- Chat messages will appear here -->
+                    </div>
+                    <input type="text" id="chat-input" placeholder="Type a message...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
