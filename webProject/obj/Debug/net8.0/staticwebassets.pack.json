@@ -1,0 +1,1421 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\webProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\webProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\css\\compileStyles.css",
+      "PackagePath": "staticwebassets\\css\\compileStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\css\\coursesStyle.css",
+      "PackagePath": "staticwebassets\\css\\coursesStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\css\\ideStyles.css",
+      "PackagePath": "staticwebassets\\css\\ideStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\css\\navbarStyles.css",
+      "PackagePath": "staticwebassets\\css\\navbarStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\dist\\bundle.js",
+      "PackagePath": "staticwebassets\\dist\\bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\CourseCreateForm.jsx",
+      "PackagePath": "staticwebassets\\js\\CourseCreateForm.jsx"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\app.css",
+      "PackagePath": "staticwebassets\\js\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\app.jsx",
+      "PackagePath": "staticwebassets\\js\\app.jsx"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compilerScripts.js",
+      "PackagePath": "staticwebassets\\js\\compilerScripts.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\ide.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\ide.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ace.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ace.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-beautify.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-beautify.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-code_lens.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-code_lens.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-command_bar.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-command_bar.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-elastic_tabstops_lite.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-elastic_tabstops_lite.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-emmet.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-emmet.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-error_marker.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-error_marker.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-hardwrap.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-hardwrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-inline_autocomplete.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-inline_autocomplete.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-keybinding_menu.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-keybinding_menu.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-language_tools.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-language_tools.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-linking.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-linking.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-modelist.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-modelist.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-options.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-options.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-prompt.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-prompt.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-rtl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-rtl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-searchbox.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-searchbox.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-settings_menu.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-settings_menu.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-simple_tokenizer.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-simple_tokenizer.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-spellcheck.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-spellcheck.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-split.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-split.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-static_highlight.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-static_highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-statusbar.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-statusbar.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-textarea.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-textarea.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-themelist.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-themelist.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\ext-whitespace.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\ext-whitespace.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\keybinding-emacs.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\keybinding-emacs.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\keybinding-sublime.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\keybinding-sublime.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\keybinding-vim.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\keybinding-vim.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\keybinding-vscode.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\keybinding-vscode.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-abap.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-abap.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-abc.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-abc.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-actionscript.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-actionscript.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-ada.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-ada.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-alda.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-alda.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-apache_conf.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-apache_conf.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-apex.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-apex.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-applescript.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-applescript.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-aql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-aql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-asciidoc.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-asciidoc.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-asl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-asl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-assembly_arm32.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-assembly_arm32.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-assembly_x86.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-assembly_x86.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-astro.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-astro.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-autohotkey.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-autohotkey.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-batchfile.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-batchfile.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-bibtex.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-bibtex.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-c9search.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-c9search.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-c_cpp.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-c_cpp.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-cirru.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-cirru.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-clojure.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-clojure.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-cobol.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-cobol.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-coffee.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-coffee.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-coldfusion.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-coldfusion.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-crystal.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-crystal.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-csharp.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-csharp.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-csound_document.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-csound_document.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-csound_orchestra.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-csound_orchestra.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-csound_score.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-csound_score.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-csp.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-csp.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-css.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-css.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-curly.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-curly.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-cuttlefish.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-cuttlefish.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-d.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-d.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-dart.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-dart.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-diff.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-diff.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-django.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-django.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-dockerfile.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-dockerfile.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-dot.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-dot.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-drools.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-drools.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-edifact.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-edifact.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-eiffel.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-eiffel.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-ejs.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-ejs.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-elixir.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-elixir.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-elm.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-elm.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-erlang.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-erlang.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-flix.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-flix.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-forth.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-forth.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-fortran.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-fortran.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-fsharp.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-fsharp.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-fsl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-fsl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-ftl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-ftl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-gcode.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-gcode.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-gherkin.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-gherkin.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-gitignore.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-gitignore.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-glsl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-glsl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-gobstones.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-gobstones.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-golang.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-golang.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-graphqlschema.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-graphqlschema.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-groovy.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-groovy.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-haml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-haml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-handlebars.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-handlebars.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-haskell.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-haskell.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-haskell_cabal.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-haskell_cabal.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-haxe.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-haxe.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-hjson.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-hjson.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-html.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-html.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-html_elixir.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-html_elixir.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-html_ruby.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-html_ruby.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-ini.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-ini.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-io.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-io.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-ion.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-ion.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-jack.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-jack.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-jade.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-jade.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-java.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-java.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-javascript.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-jexl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-jexl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-json.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-json.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-json5.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-json5.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-jsoniq.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-jsoniq.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-jsp.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-jsp.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-jssm.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-jssm.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-jsx.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-jsx.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-julia.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-julia.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-kotlin.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-kotlin.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-latex.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-latex.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-latte.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-latte.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-less.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-less.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-liquid.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-liquid.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-lisp.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-lisp.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-livescript.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-livescript.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-logiql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-logiql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-logtalk.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-logtalk.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-lsl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-lsl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-lua.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-lua.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-luapage.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-luapage.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-lucene.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-lucene.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-makefile.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-makefile.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-markdown.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-markdown.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-mask.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-mask.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-matlab.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-matlab.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-maze.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-maze.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-mediawiki.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-mediawiki.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-mel.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-mel.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-mips.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-mips.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-mixal.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-mixal.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-mushcode.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-mushcode.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-mysql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-mysql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-nasal.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-nasal.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-nginx.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-nginx.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-nim.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-nim.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-nix.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-nix.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-nsis.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-nsis.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-nunjucks.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-nunjucks.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-objectivec.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-objectivec.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-ocaml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-ocaml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-odin.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-odin.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-partiql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-partiql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-pascal.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-pascal.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-perl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-perl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-pgsql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-pgsql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-php.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-php.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-php_laravel_blade.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-php_laravel_blade.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-pig.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-pig.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-plain_text.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-plain_text.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-plsql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-plsql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-powershell.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-powershell.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-praat.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-praat.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-prisma.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-prisma.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-prolog.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-prolog.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-properties.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-properties.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-protobuf.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-protobuf.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-prql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-prql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-puppet.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-puppet.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-python.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-python.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-qml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-qml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-r.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-r.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-raku.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-raku.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-razor.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-razor.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-rdoc.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-rdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-red.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-red.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-redshift.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-redshift.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-rhtml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-rhtml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-robot.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-robot.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-rst.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-rst.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-ruby.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-ruby.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-rust.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-rust.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-sac.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-sac.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-sass.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-sass.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-scad.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-scad.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-scala.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-scala.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-scheme.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-scheme.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-scrypt.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-scrypt.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-scss.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-scss.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-sh.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-sh.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-sjs.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-sjs.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-slim.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-slim.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-smarty.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-smarty.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-smithy.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-smithy.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-snippets.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-snippets.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-soy_template.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-soy_template.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-space.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-space.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-sparql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-sparql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-sql.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-sql.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-sqlserver.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-sqlserver.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-stylus.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-stylus.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-svg.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-svg.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-swift.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-swift.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-tcl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-tcl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-terraform.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-terraform.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-tex.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-tex.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-text.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-text.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-textile.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-textile.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-toml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-toml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-tsx.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-tsx.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-turtle.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-turtle.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-twig.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-twig.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-typescript.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-typescript.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-vala.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-vala.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-vbscript.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-vbscript.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-velocity.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-velocity.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-verilog.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-verilog.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-vhdl.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-vhdl.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-visualforce.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-visualforce.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-vue.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-vue.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-wollok.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-wollok.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-xml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-xml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-xquery.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-xquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-yaml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-yaml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-zeek.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-zeek.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\mode-zig.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\mode-zig.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-ambiance.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-ambiance.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-chaos.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-chaos.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-chrome.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-chrome.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-cloud9_day.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-cloud9_day.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-cloud9_night.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-cloud9_night.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-cloud9_night_low_color.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-cloud9_night_low_color.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-cloud_editor.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-cloud_editor.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-cloud_editor_dark.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-cloud_editor_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-clouds.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-clouds.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-clouds_midnight.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-clouds_midnight.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-cobalt.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-cobalt.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-crimson_editor.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-crimson_editor.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-dawn.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-dawn.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-dracula.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-dracula.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-dreamweaver.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-dreamweaver.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-eclipse.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-eclipse.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-github.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-github.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-github_dark.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-github_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-gob.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-gob.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-gruvbox.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-gruvbox.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-gruvbox_dark_hard.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-gruvbox_dark_hard.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-gruvbox_light_hard.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-gruvbox_light_hard.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-idle_fingers.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-idle_fingers.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-iplastic.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-iplastic.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-katzenmilch.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-katzenmilch.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-kr_theme.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-kr_theme.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-kuroir.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-kuroir.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-merbivore.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-merbivore.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-merbivore_soft.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-merbivore_soft.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-mono_industrial.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-mono_industrial.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-monokai.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-monokai.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-nord_dark.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-nord_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-one_dark.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-one_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-pastel_on_dark.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-pastel_on_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-solarized_dark.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-solarized_dark.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-solarized_light.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-solarized_light.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-sqlserver.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-sqlserver.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-terminal.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-terminal.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-textmate.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-textmate.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-tomorrow.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-tomorrow.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-tomorrow_night.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-tomorrow_night.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-tomorrow_night_blue.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-tomorrow_night_blue.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-tomorrow_night_bright.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-tomorrow_night_bright.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-tomorrow_night_eighties.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-tomorrow_night_eighties.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-twilight.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-twilight.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-vibrant_ink.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-vibrant_ink.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\theme-xcode.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\theme-xcode.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-base.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-base.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-coffee.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-coffee.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-css.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-css.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-html.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-html.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-javascript.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-json.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-json.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-lua.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-lua.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-php.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-php.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-xml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-xml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-xquery.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-xquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\compiler\\lib\\worker-yaml.js",
+      "PackagePath": "staticwebassets\\js\\compiler\\lib\\worker-yaml.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webProject.props",
+      "PackagePath": "build\\webProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webProject.props",
+      "PackagePath": "buildMultiTargeting\\webProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webProject.props",
+      "PackagePath": "buildTransitive\\webProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

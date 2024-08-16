@@ -1,0 +1,11 @@
+qiskit-ibm-runtime
+qiskit==0.34.2 
+qiskit-aer==0.10.3 
+matplotlib 
+pylatexenc 
+numpy
+qiskit==0.34.2
+qiskit-aer==0.10.3 
+matplotlib 
+pylatexenc 
+ 

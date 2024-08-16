@@ -1,0 +1,80 @@
+﻿@page
+@model webProject.Pages.Courses.IndexModel
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #1a001f; 
+            color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .content-container {
+            background: #2c003e; 
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1000px; 
+        }
+
+        h2 {
+            color: #f8f9fa;
+            margin-bottom: 1.5rem;
+        }
+
+        .table {
+            color: #f8f9fa;
+            background-color: #3e005a;
+        }
+
+            .table thead th {
+                border-bottom: 2px solid #310047;
+            }
+
+            .table tbody tr td {
+                border-top: 1px solid #310047;
+            }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h2>@ViewData["Title"]</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model.Courses)
+                {
+                    <tr>
+                        <td>@course.CourseName</td>
+                        <td>@course.Description</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

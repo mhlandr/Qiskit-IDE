@@ -1,0 +1,108 @@
+﻿@page
+@model webProject.Pages.Courses.EnrollModel
+@{
+    ViewData["Title"] = "Enroll in Course";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #1a001f; 
+            color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .form-container {
+            background: #2c003e; 
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px; 
+        }
+
+        .form-control {
+            background: #3e005a;
+            color: #f8f9fa;
+            font-size: 1.2rem; 
+        }
+
+            .form-control:focus {
+                background: #310047;
+                color: #f8f9fa;
+            }
+
+        .control-label {
+            color: #f8f9fa;
+            font-size: 1.2rem; 
+        }
+
+        .text-danger {
+            color: #ff6b6b;
+        }
+
+        .btn-primary {
+            background-color: #3e005a;
+            border: none;
+            font-size: 1.2rem; 
+        }
+
+            .btn-primary:hover {
+                background-color: #310047;
+            }
+
+        a {
+            color: #8a2be2;
+        }
+
+            a:hover {
+                color: #7a1ede;
+            }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>@ViewData["Title"]</h1>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div> 
+                <div class="form-group">
+                    <label for="CourseId" class="control-label">Select a Course</label>
+                    <select id="CourseId" name="CourseId" class="form-control">
+                        @foreach (var course in Model.Courses)
+                        {
+                            <option value="@course.CourseId">@course.CourseName</option>
+                        }
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Enroll</button>
+            </form>
+        }
+        else
+        {
+            <p>You must be logged in to enroll in a course. <a asp-page="/Account/Login">Login</a></p>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
