@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L1+aH37Q4BGveO6OCDKMWayQYWKfi9LYYNzXYUXd98VVg0qF7JYz64TCkOaozT3/pghMkJsR+iuzws67AYj/Gg==",
+  "dgSpecHash": "x8TgOQ7E6nxdP1ksPOX/pUBeg8yXqqJNS7lRMWN7hmvgTezJ29mkVeSVk6dedZFP/VuUi1y2SrnlT8OpxSKkkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mhlan\\OneDrive\\Desktop\\liucenta\\webProject\\webProject\\webProject.csproj",
+  "projectFilePath": "C:\\Users\\mhlan\\OneDrive\\Documente\\GitHub\\Qiskit-IDE\\webProject\\webProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhlan\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\mhlan\\.nuget\\packages\\anglesharp.css\\0.17.0\\anglesharp.css.0.17.0.nupkg.sha512",
