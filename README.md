@@ -1,2 +1,2 @@
-# Qiskit-IDE
+# Qiskit IDE
  A .NET 8 educational platform for learning Qiskit and quantum programming. Features an integrated IDE and an AI-powered chat assistant using Meta's Llama 2 model (7B parameters). Users can access courses on quantum programming, with or without logging in, and execute code in a secure Docker environment. The app is split into two solutions: one for AI and Docker management, and another for user authentication and course management. Powered by Llama Sharp for .NET integration with Python-based AI models. The Docker setup and the controller for code execution are in LLamaSharp/LLama.WebAPI. Besides the modifications made in LLama.WebAPI, no further changes have been made to the Llama solution.
