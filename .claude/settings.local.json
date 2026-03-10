@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"D:\\\\desktop\\\\usb\\\\webProject\" | grep -v \"^d.*\\\\.$\")",
+      "Bash(cd \"D:/desktop/usb/webProject/LLamaSharp\" && dotnet restore LLama.WebAPI/LLama.WebAPI.csproj 2>&1)",
+      "Bash(cd \"D:/desktop/usb/webProject/LLamaSharp\" && dotnet restore LLamaSharp.sln 2>&1)",
+      "Bash(cd \"D:/desktop/usb/webProject/LLamaSharp\" && dotnet build LLama.WebAPI/LLama.WebAPI.csproj 2>&1)",
+      "Bash(docker info:*)",
+      "Bash(cd \"D:/desktop/usb/webProject/LLamaSharp/LLama.WebAPI/Doker\" && docker build -t python-executor . 2>&1)",
+      "Bash(cd \"D:/desktop/usb/webProject/LLamaSharp/LLama.WebAPI/Doker\" && docker build --no-cache -t python-executor . 2>&1)",
+      "Bash(wmic cpu:*)",
+      "Bash(powershell -Command \"\\(Get-CimInstance Win32_Processor\\).Name\" 2>&1)",
+      "Bash(cd \"D:/desktop/usb/webProject/LLamaSharp\" && dotnet build LLama.WebAPI/LLama.WebAPI.csproj 2>&1 | tail -10)",
+      "Bash(find /d/desktop/usb/webProject -type f -name \"*.html\" -o -name \"*.css\" -o -name \"*.js\" -o -name \"*.ts\" -o -name \"*.tsx\" -o -name \"*.jsx\" -o -name \"*.vue\" -o -name \"*.svelte\" 2>/dev/null | head -100)",
+      "Bash(find /d/desktop/usb/webProject/webProject/Pages -name \"*.cshtml.cs\" | head -5 | xargs -I {} head -25 {})",
+      "Bash(find /d/desktop/usb/webProject/webProject/Pages -type f -name \"_ViewImports.cshtml\" -o -name \"_ViewStart.cshtml\" | xargs cat)",
+      "Bash(gh auth:*)",
+      "Bash(where gh:*)",
+      "Bash(git config:*)",
+      "Bash(powershell -Command \"gh repo create qiskit-compiler --private --description 'Quantum Computing Learning Platform with AI Assistant' --source 'D:\\\\desktop\\\\usb\\\\webProject' --push\" 2>&1)",
+      "Bash(powershell -Command \"Get-Command gh -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\" 2>&1 || powershell -Command \"[Environment]::GetEnvironmentVariable\\('Path', 'Machine'\\) + ';' + [Environment]::GetEnvironmentVariable\\('Path', 'User'\\)\" 2>&1 | tr ';' '\\\\n' | grep -i git)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status 2>&1)"
+    ]
+  }
+}

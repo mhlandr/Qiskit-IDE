@@ -1,0 +1,15 @@
+@page
+@model webProject.Pages.Courses.AccessDeniedModel
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="access-denied-wrapper">
+    <div style="font-size:4rem;margin-bottom:1rem;opacity:0.3;">&#128274;</div>
+    <h1>Access Denied</h1>
+    <p>You don't have permission to access this resource.</p>
+    <a asp-page="/Index" class="btn-theme">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Back to Home
+    </a>
+</div>

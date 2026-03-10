@@ -1,59 +1,94 @@
-﻿@page
+@page
 @model webProject.Pages.compileModel
 @{
     ViewData["Title"] = "Online Compiler";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat</title>
-    <link rel="stylesheet" href="~/css/compileStyles.css">
+@section Scripts {
     <link rel="stylesheet" href="~/css/ideStyles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="~/js/compiler/lib/ace.js"></script>
     <script src="~/js/compiler/lib/theme-monokai.js"></script>
     <script src="~/js/compiler/ide.js"></script>
     <script src="~/js/compilerScripts.js"></script>
-</head>
+}
 
-<body>
+<style>
+    .content-wrapper {
+        padding-bottom: 0 !important;
+    }
+    .content-wrapper > .container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    .site-footer {
+        display: none;
+    }
+    .compiler-row {
+        display: flex;
+        gap: 0.75rem;
+        height: calc(100vh - var(--navbar-height) - 3.5rem);
+    }
+    .compiler-left {
+        flex: 1;
+        min-width: 0;
+    }
+    .compiler-right {
+        width: 340px;
+        flex-shrink: 0;
+    }
+    .compiler-panel .editor {
+        height: 55%;
+        min-height: 250px;
+    }
+    @@media (max-width: 992px) {
+        .compiler-row {
+            flex-direction: column;
+            height: auto;
+        }
+        .compiler-right {
+            width: 100%;
+        }
+        .compiler-panel .editor {
+            height: 350px;
+        }
+    }
+</style>
 
-    <div class="container-fluid">
-        <div class="row">
-
-
-            <div class="col-md-9 left-section">
-                <div class="editor" id="editor">
-                    <!-- Editor content goes here -->
-                </div>
-
-                <div class="button-container">
-                    <button class="btn" onclick="executePythonCode()">Run</button>
-                </div>
-
-                <div class="output" id="output"></div>
+<div class="compiler-row">
+    <div class="compiler-left">
+        <div class="compiler-panel">
+            <div class="panel-header">
+                <div class="dot"></div>
+                Editor &mdash; Python
             </div>
-
-
-            <div class="col-md-3 right-section">
-                <div class="chat-container">
-                    <div class="chat-box" id="chat-box">
-                        <!-- Chat messages will appear here -->
-                    </div>
-                    <input type="text" id="chat-input" placeholder="Type a message...">
-                    <button onclick="sendMessage()">Send</button>
-                </div>
+            <div class="editor" id="editor"></div>
+            <div class="button-container">
+                <button class="btn-theme" onclick="executePythonCode()">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    Run Code
+                </button>
             </div>
-
-
+            <div class="output" id="output"><span style="color:var(--text-muted);font-style:italic;">Output will appear here...</span></div>
         </div>
     </div>
-
-    
-</body>
-
-</html>
+    <div class="compiler-right">
+        <div class="chat-panel">
+            <div class="chat-panel-title">
+                <span class="ai-dot"></span>
+                AI Assistant
+            </div>
+            <div class="chat-box" id="chat-box">
+                <div class="chat-msg assistant-message">
+                    <div class="chat-msg-label">Assistant</div>
+                    Hi! I'm your quantum computing assistant. Ask me anything about Qiskit or your code.
+                </div>
+            </div>
+            <div class="chat-input-row">
+                <input type="text" id="chat-input" placeholder="Ask a question..." onkeydown="if(event.key==='Enter')sendMessage()">
+                <button class="btn-theme btn-theme-sm" onclick="sendMessage()">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

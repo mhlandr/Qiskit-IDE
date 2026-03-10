@@ -1,0 +1,31 @@
+@page
+@model CoursesModel
+@{
+    ViewData["Title"] = "Qiskit Resources";
+}
+
+<div style="max-width:800px;margin:0 auto;">
+    <div class="content-container">
+        <h2>Qiskit Resources</h2>
+        <p style="margin-bottom:1.5rem;">Explore official Qiskit documentation and learning materials.</p>
+
+        <div style="display:flex;flex-direction:column;gap:0.75rem;">
+            <a href="https://qiskit.org/learn" target="_blank" rel="noopener" class="theme-card" style="display:block;text-decoration:none;padding:1.25rem 1.5rem;">
+                <div class="feature-title">Qiskit Documentation</div>
+                <p class="feature-desc" style="margin:0;">Official docs covering all Qiskit modules and APIs.</p>
+            </a>
+            <a href="https://qiskit.org/learn/education/" target="_blank" rel="noopener" class="theme-card" style="display:block;text-decoration:none;padding:1.25rem 1.5rem;">
+                <div class="feature-title">Qiskit Education</div>
+                <p class="feature-desc" style="margin:0;">Educational resources for learning quantum computing.</p>
+            </a>
+            <a href="https://qiskit.org/learn/quantum-computing/" target="_blank" rel="noopener" class="theme-card" style="display:block;text-decoration:none;padding:1.25rem 1.5rem;">
+                <div class="feature-title">Quantum Computing for Developers</div>
+                <p class="feature-desc" style="margin:0;">A practical guide to quantum computing concepts.</p>
+            </a>
+            <a href="https://qiskit.org/learn/intro-qc-qh/" target="_blank" rel="noopener" class="theme-card" style="display:block;text-decoration:none;padding:1.25rem 1.5rem;">
+                <div class="feature-title">Intro to QC &amp; Quantum Hardware</div>
+                <p class="feature-desc" style="margin:0;">Introduction to quantum computing and quantum hardware fundamentals.</p>
+            </a>
+        </div>
+    </div>
+</div>

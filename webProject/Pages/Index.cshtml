@@ -1,10 +1,78 @@
-﻿@page
+@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="hero-section">
+    <div class="hero-badge animate-in">
+        <span class="badge-dot"></span>
+        Quantum Computing Platform
+    </div>
+    <h1 class="animate-in animate-in-delay-1">Quantum Computing<br />Made Accessible</h1>
+    <p class="hero-subtitle animate-in animate-in-delay-2">
+        Write, compile, and run Qiskit circuits right in your browser.
+        Learn quantum computing through interactive courses and hands-on practice.
+    </p>
+    <div class="hero-actions animate-in animate-in-delay-3">
+        <a asp-page="/compile" class="btn-theme btn-theme-lg">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Open Compiler
+        </a>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <a asp-area="Identity" asp-page="/Account/Register" class="btn-theme-outline btn-theme-lg">Get Started</a>
+        }
+        else
+        {
+            <a asp-page="/Courses/MyCourses" class="btn-theme-outline btn-theme-lg">My Courses</a>
+        }
+    </div>
+    <div class="hero-stats animate-in animate-in-delay-3">
+        <div class="hero-stat">
+            <div class="hero-stat-value">100%</div>
+            <div class="hero-stat-label">Browser Based</div>
+        </div>
+        <div class="hero-stat">
+            <div class="hero-stat-value">AI</div>
+            <div class="hero-stat-label">Powered Assistant</div>
+        </div>
+        <div class="hero-stat">
+            <div class="hero-stat-value">Free</div>
+            <div class="hero-stat-label">Open Access</div>
+        </div>
+    </div>
+</div>
+
+<div class="features-grid">
+    <div class="theme-card animate-in animate-in-delay-1">
+        <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        </div>
+        <div class="feature-title">Online Compiler</div>
+        <p class="feature-desc">
+            Write and execute Qiskit code directly in your browser with our built-in
+            code editor featuring syntax highlighting and instant output.
+        </p>
+    </div>
+    <div class="theme-card animate-in animate-in-delay-2">
+        <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+        </div>
+        <div class="feature-title">Structured Courses</div>
+        <p class="feature-desc">
+            Follow guided courses covering quantum computing fundamentals,
+            Qiskit programming, and advanced quantum algorithms.
+        </p>
+    </div>
+    <div class="theme-card animate-in animate-in-delay-3">
+        <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        </div>
+        <div class="feature-title">AI Assistant</div>
+        <p class="feature-desc">
+            Get real-time help from the integrated AI chat assistant while
+            you code. Ask questions, debug issues, and learn faster.
+        </p>
+    </div>
 </div>

@@ -2,9 +2,8 @@ using LLama.WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -15,7 +14,7 @@ builder.Services.AddScoped<StatelessChatService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("https://localhost:7136") // Adjust this to your frontend URL
+        builder => builder.WithOrigins("https://localhost:7136") 
                           .AllowAnyHeader()
                           .AllowAnyMethod());
 });
@@ -42,3 +41,8 @@ app.UseEndpoints(endpoints =>
 });
 
 app.Run();
+
+
+
+
+

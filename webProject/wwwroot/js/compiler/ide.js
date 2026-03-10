@@ -7,8 +7,9 @@ window.onload = function () {
 }
 
 
-async function executePythonCode(pythonCode = document.getElementById('codeEditor').value) {
-    const url = 'https://localhost:57317/api/CodeExecutionController/execute';
+async function executePythonCode() {
+    const pythonCode = document.getElementById('editor').innerText; // Ensure you fetch the code correctly
+    const url = 'https://localhost:57317/api/CodeExecution/execute'; // Adjust as needed
     const payload = {
         language: 'python',
         code: pythonCode
@@ -46,22 +47,18 @@ async function executePythonCode(pythonCode = document.getElementById('codeEdito
 
 function displayOutput(output) {
     const outputElement = document.getElementById('output');
-    outputElement.textContent = output;
+    outputElement.innerText = output;
 }
 
 function displayImage(imageUrl) {
     const outputElement = document.getElementById('output');
-    const img = document.createElement('img');
-    img.src = imageUrl;
-    outputElement.innerHTML = '';
-    outputElement.appendChild(img);
+    outputElement.innerHTML = `<img src="${imageUrl}" alt="Python execution output">`;
 }
 
-function displayError(error) {
+function displayError(errorMessage) {
     const outputElement = document.getElementById('output');
-    outputElement.textContent = error;
+    outputElement.innerText = errorMessage;
 }
-
 
 
 

@@ -1,0 +1,44 @@
+@page
+@model webProject.Pages.Courses.EnrollModel
+@{
+    ViewData["Title"] = "Enroll in Course";
+}
+
+<div style="display:flex;justify-content:center;padding-top:2rem;">
+    <div class="form-container">
+        <h1 style="text-align:center;">Enroll in a Course</h1>
+        <h4 style="text-align:center;">Select a course to begin learning</h4>
+        <hr />
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label for="CourseId" class="control-label">Select a Course</label>
+                    <select id="CourseId" name="CourseId" class="form-control">
+                        @foreach (var course in Model.Courses)
+                        {
+                            <option value="@course.CourseId">@course.CourseName</option>
+                        }
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:0.3rem;margin-top:-2px;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Enroll Now
+                </button>
+            </form>
+        }
+        else
+        {
+            <div class="empty-state" style="padding:2rem 0;">
+                <p>You must be logged in to enroll in a course.</p>
+                <a asp-area="Identity" asp-page="/Account/Login" class="btn-theme">Login to Continue</a>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

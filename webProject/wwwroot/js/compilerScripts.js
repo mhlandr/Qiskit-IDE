@@ -5,10 +5,22 @@ async function sendMessage() {
 
     if (message.trim() === "") return;
 
-    // Display the user's message in the chat box
-    const userMessage = document.createElement('div');
-    userMessage.textContent = "User: " + message;
-    chatBox.appendChild(userMessage);
+    // Display the user's message as a bubble
+    const userMsg = document.createElement('div');
+    userMsg.className = 'chat-msg user-message';
+    userMsg.innerHTML = '<div class="chat-msg-label">You</div>' + escapeHtml(message);
+    chatBox.appendChild(userMsg);
+
+    // Clear input immediately
+    inputField.value = "";
+    chatBox.scrollTop = chatBox.scrollHeight;
+
+    // Show typing indicator
+    const typingMsg = document.createElement('div');
+    typingMsg.className = 'chat-msg assistant-message';
+    typingMsg.innerHTML = '<div class="chat-msg-label">Assistant</div><span style="opacity:0.5;">Thinking...</span>';
+    chatBox.appendChild(typingMsg);
+    chatBox.scrollTop = chatBox.scrollHeight;
 
     try {
         const response = await fetch('https://localhost:57317/Chat/Send', {
@@ -23,17 +35,19 @@ async function sendMessage() {
         // Remove the last 5 characters from the result
         result = result.slice(0, -5);
 
-        // Display the assistant's response in the chat box
-        const assistantMessage = document.createElement('div');
-        assistantMessage.textContent = result;
-        chatBox.appendChild(assistantMessage);
+        // Replace typing indicator with actual response
+        typingMsg.innerHTML = '<div class="chat-msg-label">Assistant</div>' + escapeHtml(result);
 
     } catch (error) {
         console.error('Error:', error);
+        typingMsg.innerHTML = '<div class="chat-msg-label">Assistant</div><span style="color:var(--text-danger);">Could not reach the AI assistant. Make sure the API is running.</span>';
     }
 
-    // Clear the input field
-    inputField.value = "";
-    // Scroll to the bottom of the chat box
     chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
 }

@@ -1,16 +1,13 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
 
-namespace WebProjectAuthor.Areas.Identity.Data;
-
-// Add profile data for application users by adding properties to the ApplicationUser class
-public class ApplicationUser : IdentityUser
+namespace webProject.Models
 {
-    public String FirstName { get; set; }
-
-    public String LastName { get; set; }
+    public class ApplicationUser : IdentityUser
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public ICollection<UserCourse> UserCourses { get; set; }
+        public ICollection<UserCourseProgress1> UserCourseProgress1s { get; set; }
+    }
 }
-

@@ -12,8 +12,6 @@ namespace webProject.Pages
             // Access the input code from the request
             string inputCode = request.Code;
 
-            // Process the input code (compile and run)
-
             // For demonstration, echoing the input code back as output
             string output = "This is the output of the compiled code:\n" + inputCode;
 
