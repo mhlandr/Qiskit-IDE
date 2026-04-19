@@ -4,75 +4,219 @@
     ViewData["Title"] = "Home";
 }
 
-<div class="hero-section">
+<section class="hero">
+    <div class="hero-rings" aria-hidden="true"><span></span></div>
+
     <div class="hero-badge animate-in">
         <span class="badge-dot"></span>
-        Quantum Computing Platform
+        <span>Quantum Computing Platform · v1.0</span>
     </div>
-    <h1 class="animate-in animate-in-delay-1">Quantum Computing<br />Made Accessible</h1>
+
+    <h1 class="animate-in animate-in-delay-1">
+        Build quantum circuits
+        <br />
+        <span class="wave">at the speed of thought.</span>
+    </h1>
+
     <p class="hero-subtitle animate-in animate-in-delay-2">
-        Write, compile, and run Qiskit circuits right in your browser.
-        Learn quantum computing through interactive courses and hands-on practice.
+        Write, compile, and execute Qiskit code directly in your browser.
+        Learn quantum computing through interactive courses with an AI tutor by your side.
     </p>
+
     <div class="hero-actions animate-in animate-in-delay-3">
         <a asp-page="/compile" class="btn-theme btn-theme-lg">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-            Open Compiler
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Launch Compiler
         </a>
         @if (!User.Identity.IsAuthenticated)
         {
-            <a asp-area="Identity" asp-page="/Account/Register" class="btn-theme-outline btn-theme-lg">Get Started</a>
+            <a asp-area="Identity" asp-page="/Account/Register" class="btn-theme-outline btn-theme-lg">
+                Create Account
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
         }
         else
         {
-            <a asp-page="/Courses/MyCourses" class="btn-theme-outline btn-theme-lg">My Courses</a>
+            <a asp-page="/Courses/MyCourses" class="btn-theme-outline btn-theme-lg">
+                My Courses
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
         }
     </div>
-    <div class="hero-stats animate-in animate-in-delay-3">
+
+    <div class="hero-stats animate-in animate-in-delay-4">
         <div class="hero-stat">
             <div class="hero-stat-value">100%</div>
-            <div class="hero-stat-label">Browser Based</div>
+            <div class="hero-stat-label">In Browser</div>
         </div>
         <div class="hero-stat">
             <div class="hero-stat-value">AI</div>
-            <div class="hero-stat-label">Powered Assistant</div>
+            <div class="hero-stat-label">Pair Programmer</div>
         </div>
         <div class="hero-stat">
-            <div class="hero-stat-value">Free</div>
+            <div class="hero-stat-value">FREE</div>
             <div class="hero-stat-label">Open Access</div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="features-grid">
-    <div class="theme-card animate-in animate-in-delay-1">
-        <div class="feature-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-        </div>
-        <div class="feature-title">Online Compiler</div>
-        <p class="feature-desc">
-            Write and execute Qiskit code directly in your browser with our built-in
-            code editor featuring syntax highlighting and instant output.
-        </p>
+<section class="bento-section">
+    <div class="section-head animate-in">
+        <div class="eyebrow">What's inside</div>
+        <h2>Everything you need to go quantum</h2>
     </div>
-    <div class="theme-card animate-in animate-in-delay-2">
-        <div class="feature-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+
+    <div class="bento">
+        <div class="bento-tile bento-tile--wide bento-tile--tall animate-in animate-in-delay-1">
+            <div class="bento-ide-preview" aria-hidden="true">
+                <div class="bide-header">
+                    <span class="bide-dot"></span><span class="bide-dot amber"></span><span class="bide-dot green"></span>
+                    <span class="bide-title">quantum_demo.py</span>
+                </div>
+                <pre class="bide-code"><span class="tk-keyword">from</span> <span class="tk-module">qiskit</span> <span class="tk-keyword">import</span> QuantumCircuit
+qc = QuantumCircuit(<span class="tk-num">2</span>, <span class="tk-num">2</span>)
+qc.h(<span class="tk-num">0</span>)
+qc.cx(<span class="tk-num">0</span>, <span class="tk-num">1</span>)
+qc.measure([<span class="tk-num">0</span>, <span class="tk-num">1</span>], [<span class="tk-num">0</span>, <span class="tk-num">1</span>])
+
+<span class="tk-comment"># Bell state · perfect entanglement</span></pre>
+            </div>
+            <div class="feature-title">Online Qiskit Compiler</div>
+            <p class="feature-desc">
+                Full-featured code editor with syntax highlighting, instant Python execution, and live circuit visualization — no install required.
+            </p>
+            <div class="bento-cta">
+                <a asp-page="/compile" class="btn-theme-ghost">
+                    Open compiler
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
         </div>
-        <div class="feature-title">Structured Courses</div>
-        <p class="feature-desc">
-            Follow guided courses covering quantum computing fundamentals,
-            Qiskit programming, and advanced quantum algorithms.
-        </p>
-    </div>
-    <div class="theme-card animate-in animate-in-delay-3">
-        <div class="feature-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+
+        <div class="bento-tile animate-in animate-in-delay-2">
+            <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div class="feature-title">AI Assistant</div>
+            <p class="feature-desc">
+                Get real-time help from an integrated assistant while you code.
+            </p>
         </div>
-        <div class="feature-title">AI Assistant</div>
-        <p class="feature-desc">
-            Get real-time help from the integrated AI chat assistant while
-            you code. Ask questions, debug issues, and learn faster.
-        </p>
+
+        <div class="bento-tile animate-in animate-in-delay-3">
+            <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <div class="feature-title">Guided Courses</div>
+            <p class="feature-desc">
+                Structured content covering gates, circuits, and algorithms — at your pace.
+            </p>
+        </div>
+
+        <div class="bento-tile bento-tile--wide animate-in animate-in-delay-4">
+            <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+            </div>
+            <div class="feature-title">Real quantum simulation</div>
+            <p class="feature-desc">
+                Execute circuits on Qiskit's Aer simulator and visualize state vectors, histograms, and Bloch spheres.
+            </p>
+            <div class="chip-row">
+                <span class="chip">Aer</span>
+                <span class="chip">Statevector</span>
+                <span class="chip">Bloch</span>
+                <span class="chip">Histogram</span>
+            </div>
+        </div>
+
+        <div class="bento-tile bento-tile--full animate-in animate-in-delay-5">
+            <div class="cta-row">
+                <div>
+                    <div class="eyebrow">Ready when you are</div>
+                    <div class="feature-title" style="font-size:1.35rem;">Start your first circuit in seconds.</div>
+                </div>
+                <a asp-page="/compile" class="btn-theme">
+                    Launch compiler
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
     </div>
-</div>
+</section>
+
+<style>
+    .bento-section { padding: 2rem 0 1rem; }
+    .section-head { text-align: center; margin-bottom: 2.25rem; }
+    .section-head h2 {
+        font-size: clamp(1.75rem, 3vw, 2.4rem);
+        letter-spacing: -0.03em;
+        margin-top: 0.25rem;
+    }
+
+    .bento-ide-preview {
+        margin-bottom: 1.25rem;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        background: #050610;
+        box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02), 0 12px 30px rgba(0,0,0,0.35);
+    }
+    .bide-header {
+        display: flex; align-items: center; gap: 0.4rem;
+        padding: 0.55rem 0.85rem;
+        background: rgba(255,255,255,0.03);
+        border-bottom: 1px solid var(--border);
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        color: var(--text-muted);
+    }
+    .bide-dot {
+        width: 10px; height: 10px; border-radius: 50%;
+        background: #fb7185;
+    }
+    .bide-dot.amber { background: #fbbf24; }
+    .bide-dot.green { background: #34d399; }
+    .bide-title { margin-left: 0.5rem; }
+
+    .bide-code {
+        margin: 0;
+        padding: 0.95rem 1.1rem;
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+        color: #d8dee9;
+        line-height: 1.7;
+        white-space: pre;
+        overflow-x: auto;
+    }
+    .tk-keyword { color: #c4b5fd; }
+    .tk-module  { color: #67e8f9; }
+    .tk-num     { color: #fbbf24; }
+    .tk-comment { color: #6b7280; font-style: italic; }
+
+    .bento-cta { margin-top: 1rem; }
+
+    .chip-row {
+        margin-top: 1rem;
+        display: flex;
+        gap: 0.4rem;
+        flex-wrap: wrap;
+    }
+    .chip {
+        font-family: var(--font-mono);
+        font-size: 0.68rem;
+        padding: 0.28rem 0.7rem;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid var(--border);
+        color: var(--text-soft);
+        letter-spacing: 0.05em;
+    }
+
+    .cta-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.25rem;
+        flex-wrap: wrap;
+    }
+</style>

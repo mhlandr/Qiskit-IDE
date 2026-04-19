@@ -1,24 +1,49 @@
-﻿@page
+@page
 @model webProject.Pages.UserCourseProgress.IndexModel
+@{
+    ViewData["Title"] = "Progress";
+}
 
-<h2>User Course Progress</h2>
+<div style="max-width:1000px;margin:0 auto;">
+    <div class="content-container animate-in">
+        <div class="page-header">
+            <div class="eyebrow">Tracker</div>
+            <h2>Course progress</h2>
+            <p>A log of every course you're enrolled in.</p>
+        </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Course Name</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var progress in Model.UserCourseProgress1s)
+        @if (Model.UserCourseProgress1s.Any())
         {
-            <tr>
-                <td>@progress.Course.CourseName</td>
-                <td>@progress.StartDate</td>
-                <td>@progress.EndDate</td>
-            </tr>
+            <div class="table-responsive">
+                <table class="theme-table">
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var progress in Model.UserCourseProgress1s)
+                        {
+                            <tr>
+                                <td>@progress.Course.CourseName</td>
+                                <td>@progress.StartDate</td>
+                                <td>@progress.EndDate</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
         }
-    </tbody>
-</table>
+        else
+        {
+            <div class="empty-state">
+                <div class="empty-state-icon">&#128202;</div>
+                <h3>No progress yet</h3>
+                <p>Enroll in a course to start tracking your progress.</p>
+                <a asp-page="/Courses/Enroll" class="btn-theme">Enroll</a>
+            </div>
+        }
+    </div>
+</div>

@@ -4,11 +4,13 @@
     ViewData["Title"] = "Create Course";
 }
 
-<div style="display:flex;justify-content:center;padding-top:2rem;">
-    <div class="form-container" style="max-width:700px;">
-        <h1 style="text-align:center;">Create Course</h1>
-        <h4 style="text-align:center;">Add a new quantum computing course</h4>
-        <hr />
+<div style="display:flex;justify-content:center;padding-top:1.5rem;">
+    <div class="form-container animate-in" style="max-width:720px;">
+        <div style="text-align:center;margin-bottom:1.5rem;">
+            <div class="eyebrow" style="margin-bottom:0.5rem;">Admin</div>
+            <h1>Create a course</h1>
+            <h4>Add a new quantum computing lesson.</h4>
+        </div>
         <form method="post">
             <div asp-validation-summary="All" class="text-danger"></div>
             <div class="form-group">
@@ -22,8 +24,8 @@
                 <span asp-validation-for="Course.Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Course.Content" class="control-label"></label>
-                <textarea asp-for="Course.Content" class="form-control" rows="8" placeholder="Course content (HTML supported)..." style="font-family:var(--font-mono);font-size:0.85rem;"></textarea>
+                <label asp-for="Course.Content" class="control-label">Content <span style="color:var(--text-faint);text-transform:none;font-size:0.68rem;letter-spacing:0;">HTML supported</span></label>
+                <textarea asp-for="Course.Content" class="form-control" rows="10" placeholder="Course content..." style="font-family:var(--font-mono);font-size:0.85rem;"></textarea>
                 <span asp-validation-for="Course.Content" class="text-danger"></span>
             </div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">

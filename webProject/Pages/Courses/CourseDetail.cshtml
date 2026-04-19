@@ -4,21 +4,53 @@
     ViewData["Title"] = Model.Course.CourseName;
 }
 
-<div style="max-width:850px;margin:0 auto;">
-    <div class="content-container">
+<div style="max-width:900px;margin:0 auto;">
+    <div class="content-container animate-in">
         <a asp-page="/Courses/MyCourses" class="course-detail-back">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
             Back to My Courses
         </a>
-        <span class="theme-badge" style="margin-bottom:1rem;">Course</span>
-        <h1 style="margin-top:0.5rem;">@Model.Course.CourseName</h1>
-        <p style="font-size:1.05rem;margin-bottom:2.5rem;color:var(--text-secondary);">@Model.Course.Description</p>
 
-        <div style="border-top:1px solid var(--border-light);padding-top:2rem;">
-            <h3 style="margin-bottom:1.25rem;font-size:1.1rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em;font-weight:600;">Course Content</h3>
+        <div class="course-hero">
+            <div class="course-hero-badges">
+                <span class="theme-badge theme-badge-magenta">Course</span>
+                <span class="theme-badge theme-badge-green">Enrolled</span>
+            </div>
+            <h1 class="course-hero-title">@Model.Course.CourseName</h1>
+            <p class="course-hero-desc">@Model.Course.Description</p>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="course-body">
+            <div class="eyebrow" style="margin-bottom:1rem;">Course content</div>
             <div class="course-content">
                 @Html.Raw(Model.Course.Content)
             </div>
         </div>
     </div>
 </div>
+
+<style>
+    .course-hero { padding: 0.5rem 0 0.25rem; }
+    .course-hero-badges {
+        display: flex; gap: 0.5rem; flex-wrap: wrap;
+        margin-bottom: 1.15rem;
+    }
+    .course-hero-title {
+        font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+        letter-spacing: -0.035em;
+        margin: 0 0 0.65rem;
+        background: var(--grad-hero);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradShift 8s linear infinite;
+    }
+    .course-hero-desc {
+        font-size: 1.05rem;
+        color: var(--text-soft);
+        margin: 0;
+    }
+</style>

@@ -5,21 +5,24 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
-<ul class="nav navbar-nav navbar-right" style="display:flex;align-items:center;gap:0.5rem;list-style:none;margin:0;padding:0;">
+<ul class="nav navbar-nav navbar-right">
     @if (SignInManager.IsSignedIn(User))
     {
         <li>
-            <span style="color:var(--text-muted);font-size:0.8rem;margin-right:0.25rem;">@UserManager.GetUserName(User)</span>
+            <span class="user-chip" title="@UserManager.GetUserName(User)">
+                <span class="user-chip-avatar">@(UserManager.GetUserName(User)?.Substring(0,1).ToUpper())</span>
+                <span class="user-chip-name">@UserManager.GetUserName(User)</span>
+            </span>
         </li>
         <li>
             <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post" id="logoutForm" style="margin:0;">
-                <button type="submit" class="btn-theme-outline" style="padding:0.35rem 0.9rem;font-size:0.8rem;">Logout</button>
+                <button type="submit" class="btn-theme-outline btn-theme-sm">Sign out</button>
             </form>
         </li>
     }
     else
     {
-        <li><a asp-area="Identity" asp-page="/Account/Login" class="btn-theme-outline" style="padding:0.35rem 0.9rem;font-size:0.8rem;">Sign in</a></li>
-        <li><a asp-area="Identity" asp-page="/Account/Register" class="btn-theme" style="padding:0.35rem 0.9rem;font-size:0.8rem;">Register</a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Login" class="btn-theme-outline btn-theme-sm">Sign in</a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Register" class="btn-theme btn-theme-sm">Register</a></li>
     }
 </ul>

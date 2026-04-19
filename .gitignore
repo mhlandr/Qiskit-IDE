@@ -361,3 +361,26 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ── Project-specific ────────────────────────────────────────────────────────
+
+# Claude Code local config (machine-specific, never commit)
+.claude/
+
+# Visual Studio launch profiles (user-specific)
+*.slnLaunch.user
+
+# Local SQLite / SQL Server DB files (generated at runtime)
+*.db
+*.sqlite
+*.mdf
+*.ldf
+*.ndf
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Secrets (never commit)
+*secrets*.json
+*secrets*.yml

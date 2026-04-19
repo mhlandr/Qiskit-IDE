@@ -73,16 +73,16 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-if (app.Environment.IsDevelopment())
+// Always catch unhandled exceptions with a friendly page
+app.UseExceptionHandler("/Error");
+
+if (!app.Environment.IsDevelopment())
 {
-    app.UseDeveloperExceptionPage();
-    app.UseDatabaseErrorPage();
-}
-else
-{
-    app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
+
+// Catch all HTTP error status codes (404, 403, etc.) and redirect to /Error/{code}
+app.UseStatusCodePagesWithReExecute("/Error/{0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

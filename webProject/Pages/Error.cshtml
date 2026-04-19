@@ -1,26 +1,149 @@
-﻿@page
+@page "/Error/{id?}"
 @model ErrorModel
 @{
-    ViewData["Title"] = "Error";
+    ViewData["Title"] = "Error " + (Model.StatusCode > 0 ? Model.StatusCode.ToString() : "");
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+<div class="error-page">
+    <div class="error-icon-wrap @Model.ErrorIcon">
+        @if (Model.ErrorIcon == "notfound")
+        {
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                <line x1="11" y1="8" x2="11" y2="12"></line><line x1="11" y1="16" x2="11.01" y2="16"></line>
+            </svg>
+        }
+        else if (Model.ErrorIcon == "lock")
+        {
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+        }
+        else
+        {
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                <line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+        }
+    </div>
 
-@if (Model.ShowRequestId)
-{
-    <p>
-        <strong>Request ID:</strong> <code>@Model.RequestId</code>
-    </p>
+    <div class="error-code animate-in">
+        @if (Model.StatusCode > 0) { @Model.StatusCode }
+    </div>
+    <h1 class="animate-in animate-in-delay-1">@Model.ErrorTitle</h1>
+    <p class="animate-in animate-in-delay-2">@Model.ErrorMessage</p>
+
+    @if (Model.ShowRequestId)
+    {
+        <p class="error-trace animate-in animate-in-delay-2">
+            Request ID: <code>@Model.RequestId</code>
+        </p>
+    }
+
+    <div class="hero-actions animate-in animate-in-delay-3">
+        <a asp-page="/Index" class="btn-theme">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Back to Home
+        </a>
+        @if (Model.StatusCode == 401 || Model.StatusCode == 403)
+        {
+            <a asp-area="Identity" asp-page="/Account/Login" class="btn-theme-outline">Sign in</a>
+        }
+        else
+        {
+            <button onclick="history.back()" class="btn-theme-outline">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                Go back
+            </button>
+        }
+    </div>
+</div>
+
+<style>
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 72vh;
+    text-align: center;
+    padding: 2rem 1rem;
+    gap: 0.25rem;
 }
 
-<h3>Development Mode</h3>
-<p>
-    Swapping to the <strong>Development</strong> environment displays detailed information about the error that occurred.
-</p>
-<p>
-    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
-    It can result in displaying sensitive information from exceptions to end users.
-    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
-    and restarting the app.
-</p>
+.error-icon-wrap {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s var(--t-spring);
+}
+.error-icon-wrap:hover { transform: scale(1.06) rotate(-3deg); }
+
+.error-icon-wrap.notfound {
+    color: #818cf8;
+    background: linear-gradient(135deg, rgba(99,102,241,0.22), rgba(168,85,247,0.1));
+    border: 1px solid rgba(99,102,241,0.35);
+    box-shadow: 0 0 50px rgba(99,102,241,0.2);
+}
+.error-icon-wrap.lock {
+    color: #fb7185;
+    background: linear-gradient(135deg, rgba(251,113,133,0.2), rgba(251,191,36,0.08));
+    border: 1px solid rgba(251,113,133,0.35);
+    box-shadow: 0 0 50px rgba(251,113,133,0.18);
+}
+.error-icon-wrap.warning {
+    color: #fbbf24;
+    background: linear-gradient(135deg, rgba(251,191,36,0.2), rgba(251,113,133,0.08));
+    border: 1px solid rgba(251,191,36,0.35);
+    box-shadow: 0 0 50px rgba(251,191,36,0.18);
+}
+
+.error-code {
+    font-family: var(--font-mono);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    background: var(--grad-hero);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradShift 6s linear infinite;
+    margin-bottom: 0.5rem;
+}
+
+.error-page h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 4vw, 2.25rem);
+    letter-spacing: -0.03em;
+    margin: 0 0 0.6rem;
+}
+
+.error-page > p {
+    color: var(--text-soft);
+    font-size: 1.05rem;
+    max-width: 480px;
+    margin: 0 0 1.5rem;
+}
+
+.error-trace {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem !important;
+}
+.error-trace code {
+    background: rgba(255,255,255,0.05);
+    padding: 0.15em 0.5em;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    color: var(--text-soft);
+}
+</style>
