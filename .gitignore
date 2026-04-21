@@ -384,3 +384,12 @@ __pycache__/
 # Secrets (never commit)
 *secrets*.json
 *secrets*.yml
+
+# Webpack build output (generated — run `npm run build` to regenerate)
+webProject/wwwroot/dist/
+
+# Vendored Ace editor library (install via npm, not committed)
+webProject/wwwroot/js/compiler/lib/
+
+# Machine-specific service dependency overrides
+webProject/Properties/serviceDependencies.local.json
